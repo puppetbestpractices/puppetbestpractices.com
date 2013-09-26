@@ -1,0 +1,15 @@
+---
+layout: default
+title: Nodes
+---
+
+<div class="col-lg-12">
+  {% for post in site.categories.nodes %}
+  <div class="container">
+    <hr />
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <span>&raquo; {{ post.date | date_to_string }}</span>
+      <p>{{ post.excerpt }}</p>
+    </div>
+    {% endfor %}
+</div><!-- /col-lg-12 -->
