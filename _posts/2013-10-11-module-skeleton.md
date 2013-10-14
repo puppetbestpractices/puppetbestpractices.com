@@ -9,3 +9,4 @@ These skeletons provides a great way to go beyond the basics of `puppet module g
 
 - [garethr/puppet-module-skeleton](https://github.com/garethr/puppet-module-skeleton)
 - [spiette/puppet-module-skeleton](https://github.com/spiette/puppet-module-skeleton)
+- [stdmod/puppet-module-skeleton](https://github.com/stdmod/puppet-module-skeleton)
