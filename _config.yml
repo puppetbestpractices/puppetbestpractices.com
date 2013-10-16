@@ -1,3 +1,4 @@
 name: Puppet Best Practices
 markdown: redcarpet
 pygments: true
+permalink: none
