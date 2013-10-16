@@ -18,7 +18,7 @@ layout: nil
   {% for page in site.pages %}
   {% if page.sitemap != null and page.sitemap != empty %}
   <url>
-    <loc>{{ site.baseurl }}{{ page.url }}</loc>
+    <loc>http:{{ site.baseurl }}{{ page.url }}</loc>
     <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
     <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     <priority>{{ page.sitemap.priority }}</priority>
