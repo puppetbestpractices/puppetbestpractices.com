@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Module Compostion"
+title:  "Module Composition"
 date:   2014-03-08 17:06:00
 categories: modules
 ---
